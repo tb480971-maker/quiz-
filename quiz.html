@@ -1,0 +1,29 @@
+Tiana -June 27, 2026
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My JS Quiz Game</title>
+    <script src="quiz.js" defer></script>
+</head>
+<body>
+    <h1>My Quiz Game</h1>
+    <h3>Open the Console (F12) to see detailed results.</h3>
+
+    <h4>Questions</h4>
+    <ol>
+        <li>Name a real-life situation where you would need to use an `if` statement.</li>
+        <li><strong>Answer:</strong> Deciding what to wear based on the weather. If it is raining, you grab an umbrella; otherwise, you leave it at home. In development, it's like checking if a user has filled out a form field before allowing a submission.</li>
+
+        <li>Explain the difference between `==` and `===`. Why is strict equality usually better?</li>
+        <li><strong>Answer:</strong> The `==` operator performs type coercion, meaning it tries to convert data types to match before comparing (e.g., `5 == "5"` is true). The `===` operator checks strict equality, meaning both the value and the exact data type must match (e.g., `5 === "5"` is false). Strict equality is better because it avoids unexpected bugs caused by automatic type conversions.</li>
+
+        <li>Give an example (in your own words) of when you would use `&&` (AND) vs `||` (OR).</li>
+        <li><strong>Answer:</strong> I would use `&&` when two conditions must both be true at the same time—like checking if a user entered a username AND a password to log in. I would use `||` when only one condition needs to be true—like checking if a user is a student OR a senior citizen to apply a discount.</li>
+
+        <li>What does the `!` (NOT) operator do? Give an example of a situation you would use it.</li>
+        <li><strong>Answer:</strong> The `!` operator inverts a boolean value, changing true to false or false to true. You would use it to check if something is NOT complete or empty, such as: if a text input is NOT valid (`!isValid`), display an error message.</li>
+    </ol>
+</body>
+</html>
